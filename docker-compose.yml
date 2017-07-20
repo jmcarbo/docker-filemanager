@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+  filemanager:
+    image: jmcarbo/docker-filemanager
+    volumes:
+      - $PWD:/data
+    ports:
+      - "8080:80"
